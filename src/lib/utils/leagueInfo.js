@@ -26,6 +26,8 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
      {
+       // CHAYCE HORTON ROSTER
+       
        "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Chayce Horton",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -38,7 +40,7 @@ export const managers = [
        "rival": {
          name: "Rival", // Can be anything (usually your rival's name)
          link: 6, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/king.JPG", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
@@ -48,17 +50,19 @@ export const managers = [
        "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
+       //  NICK KING ROSTER
+       
        "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Nick King",
      //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "MA", // (optional)
        "bio": "Lorem ipsum...",
-       "photo": "/managers/king.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "/managers/king.JPG", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
-         name: "Rival", // Can be anything (usually your rival's name)
+         name: "Chayce", // Can be anything (usually your rival's name)
          link: 6, // manager array number within this array, or null to link back to all managers page
          image: "/managers/horton1.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
@@ -70,6 +74,8 @@ export const managers = [
        "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
+       // MITCH HALE ROSTER
+       
        "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "Mitch Hale",
        "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -82,7 +88,7 @@ export const managers = [
        "rival": {
          name: "Nick", // Can be anything (usually your rival's name)
          link: 6, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/king.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         image: "/managers/king.JPG", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
        "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
