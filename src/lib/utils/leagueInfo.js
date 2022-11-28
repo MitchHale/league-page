@@ -93,7 +93,7 @@ export const managers = [
        "favoritePlayer": 7564, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
        "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "“You miss 100% of the shots you don’t take." +\n "– Wayne Gretzky"+\n "– Michael Scott",
+       "philosophy": "You miss 100% of the shots you don’t take." +\n "– Wayne Gretzky"+\n "– Michael Scott",
        "tradingScale": 5, // 1 - 10
        "preferredContact": "Discord", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
