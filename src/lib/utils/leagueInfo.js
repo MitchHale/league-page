@@ -56,7 +56,7 @@ export const managers = [
        "name": "Nick King",
      //  "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "MA", // (optional)
-       "bio": "Assistant to the commisioner. Tied for longest tenured player in the league. Most wins in league to date. Tied for most championships won (2).",
+       "bio": "Assistant to the commisioner. Nick is tied for longest tenured player in the league. He has the most wins in league to date. Nick is tied for most championships won (2). His favorite non-Patriots NFL Team is the Atlanta Falcons.",
        "photo": "/managers/king.JPG", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -80,7 +80,7 @@ export const managers = [
        "name": "Mitch Hale",
        "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Amherst, NH", // (optional)
-       "bio": "Lorem ipsum...",
+       "bio": "This is Mitch's 3rd season in the Gentlemens League, recently joining in 2019. Mitch won the championship his rookie season. In addition to Fantasy Football, Mitch enjoys long walks on the beach, playing lacrosse, and camping. His favorite non-Patriots NFL team is the Pittsburgh Steelers.",
        "photo": "/managers/hales.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": 2019, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
@@ -90,11 +90,11 @@ export const managers = [
          link: 6, // manager array number within this array, or null to link back to all managers page
          image: "/managers/king.JPG", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        },
-       "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 7564, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-       "philosophy": "Your fantasy team's philosophy",
-       "tradingScale": 2, // 1 - 10
+       "philosophy": "“You miss 100% of the shots you don’t take." +\n "– Wayne Gretzky"+\n "– Michael Scott",
+       "tradingScale": 5, // 1 - 10
        "preferredContact": "Discord", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
   ]
