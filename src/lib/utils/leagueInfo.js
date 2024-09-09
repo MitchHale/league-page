@@ -8,12 +8,8 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Gentlemen's League Bio/Intro will be here... 2023 SEASON INCOMING</p>
-  <p>Established...</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-`;
+  <p>Founded in 2013 out of Amherst, NH, the Gentlemens League is a premier fantasy football experience, built on camaraderie, competition, and a shared passion for the NFL. Over the years, our 10-man league has evolved from a standard re-draft format to a more strategic keeper league, and now we're entering the exciting world of dynasty fantasy football. As we embark on our second year of dynasty play, the stakes have never been higher, and the rivalries never more intense.</p>
+  `;
 
 /*   STEP 3   */
 /*
