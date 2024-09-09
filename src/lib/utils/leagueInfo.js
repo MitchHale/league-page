@@ -8,7 +8,11 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 /*   STEP 2   */
 export const homepageText = `
   <p>Welcome to the Gentlemens League...</p>
-  <p>Founded in 2013 out of Amherst, NH, the Gentlemens League is a premier fantasy football experience, built on camaraderie, competition, and a shared passion for the NFL. Over the years, our 10-man league has evolved from a standard re-draft format to a more strategic keeper league, and now we're entering the exciting world of dynasty fantasy football. As we embark on our second year of dynasty play, the stakes have never been higher, and the rivalries never more intense.</p>
+  <p>Founded in 2013 out of Amherst, NH, the Gentlemens League is a premier fantasy football experience, built on camaraderie, competition, and a shared passion for the NFL.</p> 
+  <p>Over the years, our 10-man league has evolved from a standard re-draft format to a more strategic keeper league, and now we're entering the exciting world of dynasty fantasy football.</p> 
+  <p>As we embark on our second year of dynasty play, the stakes have never been higher, and the rivalries never more intense.</p>
+  <p><br />Whether you're a seasoned fantasy veteran or new to the game, the Gentlemens League offers an exhilarating mix of strategy, smack talk, and pure football fun. Join us as we continue to make history, one season at a time.</p>
+  
   `;
 
 /*   STEP 3   */
